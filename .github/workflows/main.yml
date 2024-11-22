@@ -1,0 +1,6 @@
+name: practice-ci-cd
+on:
+  push:
+    branches:
+      - main
+jobs:
