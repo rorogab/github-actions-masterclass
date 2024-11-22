@@ -8,6 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo "Testing the code"
-          pwd
-          ls -al
+          uses: actions/checkout@v4
+          run: npm run test
