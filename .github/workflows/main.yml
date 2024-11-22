@@ -7,6 +7,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          uses: actions/checkout@v4
-          run: npm run test
+      - uses: actions/checkout@v4.2.2
+      - run: npx run test
