@@ -4,3 +4,7 @@ on:
     branches:
       - main
 jobs:
+  name: test
+  runs-on: ubuntu-latest
+  steps:
+    run: echo "Hello, World!"
